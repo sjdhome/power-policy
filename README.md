@@ -1,6 +1,6 @@
-# power_policy
+# power-policy
 
-Quick scripts for switching Linux power policies.
+Scripts for quickly switching Linux power policies.
 
 ## Usage
 
