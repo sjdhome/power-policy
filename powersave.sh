@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-cpupower frequency-set -g powersave
-cpupower set -b 15
+echo powersave | tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+echo 15 | tee /sys/devices/system/cpu/cpu*/power/energy_perf_bias
